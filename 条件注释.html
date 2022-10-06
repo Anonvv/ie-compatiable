@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		/*textarea隐藏滚动条*/
+		textarea{overflow: hidden; }
+	</style>
+</head>
+
+<body>
+	<!-- readonly聚焦 -->
+	<input type="text" readonly="true" unselectable='on'>
+
+	<!-- 支持所有IE浏览器 -->
+
+	<!--[if IE]>
+		123
+	<![endif]-->
+
+	<!-- 仅仅支持IE10 -->
+	<!--[if IE 10]>
+		仅仅支持IE10
+	<![endif]-->
+	<!-- 支持IE10以下版本（IE9以及IE9以下版本） -->
+	<!--[if lt IE 10]>
+		支持IE10以下版本（IE9以及IE9以下版本）
+	<![endif]-->
+	<!-- 高于IE9的版本(IE10以及IE10以上版本) -->
+	<!--[if gt IE 9]>
+		高于IE9的版本(IE10以及IE10以上版本)
+	<![endif]-->
+</body>
+</html>
